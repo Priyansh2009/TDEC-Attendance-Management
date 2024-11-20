@@ -2,7 +2,7 @@
 This is Attendance Management System.
 <br><br>
 Author :
-Priyansh Lashkari
-Bansil Mayani
-Vansh Loriya
-Dhruv Matariya
+Priyansh Lashkari <br>
+Bansil Mayani <br>
+Vansh Loriya <br>
+Dhruv Matariya <br>
