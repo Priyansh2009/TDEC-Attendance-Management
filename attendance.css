@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.attendance-container {
+  display: flex;
+  gap: 20px;
+  background: white;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.take-attendance {
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  margin: 8px;
+}
+
+.student-list {
+  display: flex;
+  gap: 10px;
+}
+
+.student-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 45%;
+}
+
+.student-card img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.attendance-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.attendance-options button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.attendance-options button.present {
+  background-color: #4caf50;
+  color: white;
+}
+
+.attendance-options button.absent {
+  background-color: #f44336;
+  color: white;
+}
+
+.attendance-options button.late {
+  background-color: #ffc107;
+  color: white;
+}
+
+.save-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
